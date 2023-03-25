@@ -33,9 +33,9 @@ session_start();
 	}
 
 	if(isset($_POST['delc'])){
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
+		$servername = "mysql-server-bookstore-001.mysql.database.azure.com";
+		$username = "ictadmin";
+		$password = "!ct@dmin1234";
 
 		$conn = new mysqli($servername, $username, $password);
 
