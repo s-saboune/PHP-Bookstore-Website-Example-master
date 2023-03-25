@@ -50,9 +50,9 @@ session_start();
 		$conn->query($sql);
 	}
 
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
+	$servername = "mysql-server-bookstore-001.mysql.database.azure.com";
+	$username = "ictadmin";
+	$password = "!ct@dmin1234";
 
 	$conn = new mysqli($servername, $username, $password);
 
